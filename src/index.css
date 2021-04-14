@@ -26,4 +26,45 @@ body {
   background-color: antiquewhite;
   height: 90vh;
   width: clamp(300px, 90vw, 500px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  display: block;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+
+.show {
+  width: 100%;
+}
+
+.loading {
+  width: 50px;
+  height: 50px;
 }
